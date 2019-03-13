@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/bootstrap/font-awesome/css/font-awesome.css"
+    />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/bootstrap/css/bootstrap.min.css" />
+
+    <title>PreviouslyOn</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/bootstrap/jquery/jquery.js"></script>
+    <script src="%PUBLIC_URL%/bootstrap/js/popper.min.js"></script>
+    <script src="%PUBLIC_URL%/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).on("scroll", function() {
+        if ($(document).scrollTop() > 85) {
+          $("#banner").addClass("shrink");
+        } else {
+          $("#banner").removeClass("shrink");
+        }
+      });
+    </script>
+    <script src="https://www.betaseries.com/js/button.js" async></script>
+  </body>
+</html>

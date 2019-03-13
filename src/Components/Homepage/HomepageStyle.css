@@ -1,0 +1,29 @@
+.galleryImg {
+  height: 125px;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .headerText {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .headerText {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .imgWidth {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .imgWidth {
+    height: 250px;
+  }
+}

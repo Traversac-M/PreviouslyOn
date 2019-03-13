@@ -1,0 +1,12 @@
+.testImg {
+  height: 200px;
+}
+
+@media screen and (min-width: 1000px) {
+  .textLimit {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+  }
+}
